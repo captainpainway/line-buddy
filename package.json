@@ -7,8 +7,6 @@
   "private": true,
   "scripts": {
     "start": "node ./index.js",
-    "watchifybuild": "watchify ./public/js/script.js -o ./public/js/bundle.js -v",
-    "watchivywatch": "watchify ./public/js/react.jsx --extension=.jsx -o ./public/js/compiled.js -v",
     "build": "webpack",
     "watch": "webpack -d --watch"
   },
@@ -26,20 +24,20 @@
     ]
   },
   "dependencies": {
-    "aframe": "^0.5.0",
+    "aframe": "^0.6.0",
     "aframe-mouse-cursor-component": "^0.5.1",
-    "aframe-orbit-controls-component-2": "^0.1.7",
+    "aframe-orbit-controls-component-2": "^0.1.8",
     "aframe-react": "^4.2.4",
-    "cron": "^1.1.0",
-    "express": "~4.13.4",
+    "cron": "^1.2.1",
+    "express": "~4.15.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
     "react-router-dom": "^4.1.1",
     "redux": "^3.7.1",
     "redux-thunk": "^2.2.0",
-    "socket.io": "^2.0.2",
-    "themeparks": "^4.1.5",
+    "socket.io": "^2.0.3",
+    "themeparks": "^4.3.1",
     "watchify": "^3.9.0",
     "webpack": "^3.0.0"
   },

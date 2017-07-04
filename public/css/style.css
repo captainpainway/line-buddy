@@ -122,7 +122,7 @@ a-scene {
 
 .a-canvas.a-grab-cursor:hover{cursor:default !important}.a-canvas.a-grab-cursor:active,.a-grabbing{cursor:default !important}
 
-#time_popup, #wait_popup {
+#time_popup, #wait_popup, #help_popup {
     min-height: 100px;
     height: auto;
     position: absolute;
@@ -132,6 +132,14 @@ a-scene {
     text-align: center;
     box-sizing: border-box;
     display: none;
+}
+
+#help_popup p {
+  margin: 10px 10px;
+}
+
+#help_popup {
+  padding-bottom: 10px;
 }
 
 .closebkg {

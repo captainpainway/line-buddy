@@ -59,6 +59,8 @@ export default class Epcot extends React.Component {
 
                     <Entity primitive="a-cylinder" id="map" position="3 0 -16" rotation="0 90 0" radius="90" height="1" material="shader: flat; src: #EP" />
                     <Entity id="cam-cursor" primitive="a-camera" rotation="-30 0 0" position="1 70 -90" orbit-controls="target: #map; invertZoom: true; dampingFactor: 0.125; rotateSpeed: 0.25; autoRotate: false; maxPolarAngle: 1.5; zoomSpeed: 0.5" mouse-cursor />
+                    <Entity light="type: ambient; color: #999"></Entity>
+                    <Entity light="type: directional; color: #fff; intensity: 0.6" position="1 70 -90"></Entity>
                 </Scene>
             </div>
         );

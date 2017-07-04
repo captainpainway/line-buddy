@@ -60,9 +60,10 @@ export default class WaitPopup extends React.Component {
             )
         })
         return (
-            <div className="closebkg" onClick={this.handleRemovePopup.bind(this)}>
-                <div id="wait_popup" ref="popup">
+            <div className="closebkg">
+                <div id="wait_popup" ref="popup" onClick={this.handleRemovePopup.bind(this)}>
                     {times}
+                    <p>Click/tap to close</p>
                 </div>
             </div>
         );

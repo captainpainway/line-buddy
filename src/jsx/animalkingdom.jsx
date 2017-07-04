@@ -47,6 +47,8 @@ export default class AnimalKingdom extends React.Component {
 
                     <Entity primitive="a-cylinder" id="map" position="3 0 -16" rotation="0 90 0" radius="90" height="1" material="shader: flat; src: #AK" />
                     <Entity id="cam-cursor" primitive="a-camera" rotation="-30 0 0" position="3 70 60" orbit-controls="target: #map; invertZoom: true; dampingFactor: 0.125; rotateSpeed: 0.25; autoRotate: false; maxPolarAngle: 1.5; zoomSpeed: 0.5" mouse-cursor />
+                    <Entity light="type: ambient; color: #999"></Entity>
+                    <Entity light="type: directional; color: #fff; intensity: 0.6" position="3 70 60"></Entity>
                 </Scene>
             </div>
         );
