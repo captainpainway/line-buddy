@@ -11,6 +11,16 @@ export default class WaitPopup extends React.Component {
 
     componentDidMount() {
         this.updateAndAnimate();
+        fetch("../json/rides.json", {
+            headers : { 
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            return response.json();
+        }).then(rides => {
+            this.setState({rides});
+        })
     }
 
     componentDidUpdate() {
@@ -18,14 +28,19 @@ export default class WaitPopup extends React.Component {
     }
 
     getWaitTimes() {
-        this.props.data[this.props.park].map((obj) => {
-            if(obj.status == "Operating") {
-                this.rides.push([obj.name, obj.waitTime]);
-            }
-        });
-        this.rides.sort((a, b) => {
-            return a[1] - b[1];
-        })
+        if(this.state.rides) {
+            Object.values(this.state.rides[this.props.park]).map(rides => {
+                let idNum = rides['id'];
+                this.props.data[this.props.park].map((obj) => {
+                    if(obj.status == "Operating" && obj.id === idNum) {
+                        this.rides.push([obj.name, obj.waitTime]);
+                    }
+                });
+            });
+            this.rides.sort((a, b) => {
+                return a[1] - b[1];
+            })
+        }
     }
 
     updateAndAnimate() {

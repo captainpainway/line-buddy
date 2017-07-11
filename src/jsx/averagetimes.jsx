@@ -10,16 +10,34 @@ export class AverageTime extends React.Component {
         this.average = '';
     }
 
+    componentDidMount() {
+        fetch("../json/rides.json", {
+            headers : { 
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            return response.json();
+        }).then(rides => {
+            this.setState({rides});
+        })
+    }
+
     averageTimes() {
         if(this.props.data) {
             let total = 0;
             let count = 0;
-            this.props.data[this.props.park].map((obj) => {
-                if(obj.active === true) {
-                    total += parseInt(obj.waitTime);
-                    count++;
-                }
-            });
+            if(this.state.rides) {
+                Object.values(this.state.rides[this.props.park]).map(rides => {
+                    let idNum = rides['id'];
+                    this.props.data[this.props.park].map(obj => {
+                        if(obj.id === idNum && obj.active === true && obj.status === "Operating") {
+                            total += parseInt(obj.waitTime);
+                            count++;
+                        }
+                    });
+                });
+            }
             let average = total / count ? Math.round(total / count) : 0;
             this.average = average + " minute average wait";
         }

@@ -1,0 +1,290 @@
+{
+    "MagicKingdom": {
+        "Stitch's Great Escape":{
+            "id":"WaltDisneyWorldMagicKingdom_5490",
+            "position":"24 0 5.5"
+        },
+        "Monsters Inc Laugh Floor":{
+            "id":"WaltDisneyWorldMagicKingdom_136550",
+            "position":"21.5 0 8.7"
+        },
+        "WDW Railroad: Frontierland":{
+            "id":"WaltDisneyWorldMagicKingdom_2219610",
+            "position":"-56.5 0 -13.4"
+        },
+        "Tiki Room":{
+            "id":"WaltDisneyWorldMagicKingdom_16124144",
+            "position":"-36 0 10.3"
+        },
+        "The Barnstormer":{
+            "id":"WaltDisneyWorldMagicKingdom_16491297",
+            "position":"41.6 0 -29.8"
+        },
+        "WDW Railroad: Fantasyland":{
+            "id":"WaltDisneyWorldMagicKingdom_16491299",
+            "position":"41.7 0 -36.6"
+        },
+        "Casey Jr Spash Station":{
+            "id":"WaltDisneyWorldMagicKingdom_16512939",
+            "position":"37.6 0 -34.8"
+        },
+        "Journey of the Little Mermaid":{
+            "id":"WaltDisneyWorldMagicKingdom_16767263",
+            "position":"19.8 0 -37.8"
+        },
+        "Enchanted Tales With Belle":{
+            "id":"WaltDisneyWorldMagicKingdom_16767276",
+            "position":"2.6 0 -36.6"
+        },
+        "Seven Dwarfs Mine Train":{
+            "id":"WaltDisneyWorldMagicKingdom_16767284",
+            "position":"18.8 0 -28"
+        },
+        "Astro Orbiter":{
+            "id":"WaltDisneyWorldMagicKingdom_80010107",
+            "position":"32 0 8"
+        },
+        "Big Thunder Mountain Railroad":{
+            "id":"WaltDisneyWorldMagicKingdom_80010110",
+            "position":"-49.3 0 -19.4"
+        },
+        "Buzz Lightyear":{
+            "id":"WaltDisneyWorldMagicKingdom_80010114",
+            "position":"26.8 0 9.2"
+        },
+        "Prince Charming Regal Carrousel":{
+            "id":"WaltDisneyWorldMagicKingdom_80010117",
+            "position":"0.7 0 -20.4"
+        },
+        "Dumbo the Flying Elephant":{
+            "id":"WaltDisneyWorldMagicKingdom_80010129",
+            "position":"33.4 0 -28.3"
+        },
+        "it's a small world":{
+            "id":"WaltDisneyWorldMagicKingdom_80010149",
+            "position":"-12.4 0 -29"
+        },
+        "Jungle Cruise":{
+            "id":"WaltDisneyWorldMagicKingdom_80010153",
+            "position":"-31.7 0 14.2"
+        },
+        "Liberty Square Riverboat":{
+            "id":"WaltDisneyWorldMagicKingdom_80010160",
+            "position":"-22.8 0 -13.4"
+        },
+        "Mad Tea Party":{
+            "id":"WaltDisneyWorldMagicKingdom_80010162",
+            "position":"21.3 0 -20.4"
+        },
+        "Mickey's Philharmagic":{
+            "id":"WaltDisneyWorldMagicKingdom_80010170",
+            "position":"-2.9 0 -19.8"
+        },
+        "Peter Pan's Flight":{
+            "id":"WaltDisneyWorldMagicKingdom_80010176",
+            "position":"-9.7 0 -21.4"
+        },
+        "Pirates of the Caribbean":{
+            "id":"WaltDisneyWorldMagicKingdom_80010177",
+            "position":"-46 0 15"
+        },
+        "Space Mountain":{
+            "id":"WaltDisneyWorldMagicKingdom_80010190",
+            "position":"47 0 -0.2"
+        },
+        "Splash Mountain":{
+            "id":"WaltDisneyWorldMagicKingdom_80010192",
+            "position":"-61 0 -8"
+        },
+        "Swiss Family Treehouse":{
+            "id":"WaltDisneyWorldMagicKingdom_80010196",
+            "position":"-23.4 0 6.1"
+        },
+        "Haunted Mansion":{
+            "id":"WaltDisneyWorldMagicKingdom_80010208",
+            "position":"-24.1 0 -22.6"
+        },
+        "The Magic Carpets of Aladdin":{
+            "id":"WaltDisneyWorldMagicKingdom_80010210",
+            "position":"-32.3 0 8"
+        },
+        "Winnie the Pooh":{
+            "id":"WaltDisneyWorldMagicKingdom_80010213",
+            "position":"13.5 0 -22.2"
+        },
+        "Tom Sawyer Island":{
+            "id":"WaltDisneyWorldMagicKingdom_80010220",
+            "position":"-44.7 0 -11.6"
+        },
+        "Tomorrowland Speedway":{
+            "id":"WaltDisneyWorldMagicKingdom_80010222",
+            "position":"28.7 0 -10"
+        },
+        "TTA Peoplemover":{
+            "id":"WaltDisneyWorldMagicKingdom_80010224",
+            "position":"32.6 0 11.7"
+        },
+        "WDW Railroad: Main Street":{
+            "id":"WaltDisneyWorldMagicKingdom_80010230",
+            "position":"0.7 0 46"
+        },
+        "Carousel of Progress":{
+            "id":"WaltDisneyWorldMagicKingdom_80010232",
+            "position":"33.8 0 15.5"
+        },
+        "Country Bear Jamboree":{
+            "id":"WaltDisneyWorldMagicKingdom_80069748",
+            "position":"-38.1 0 2"
+        },
+        "The Hall of Presidents":{
+            "id":"WaltDisneyWorldMagicKingdom_80069754",
+            "position":"-15.5 0 -11.4"
+        }
+    },
+    "Epcot": {
+        "Spaceship Earth":{
+            "id":"WaltDisneyWorldEpcot_80010191",
+            "position":"-2.5 0 -66"
+        },
+        "Ellen's Energy Adventure":{
+            "id":"WaltDisneyWorldEpcot_80010131",
+            "position":"14 0 -60"
+        },
+        "Mission: SPACE":{
+            "id":"WaltDisneyWorldEpcot_80010173",
+            "position":"24 0 -48"
+        },
+        "Test Track":{
+            "id":"WaltDisneyWorldEpcot_80010199",
+            "position":"20.5 0 -38"
+        },
+        "The Seas":{
+            "id":"WaltDisneyWorldEpcot_107785",
+            "position":"-18 0 -66"
+        },
+        "Turtle Talk With Crush":{
+            "id":"WaltDisneyWorldEpcot_62992",
+            "position":"-22 0 -68"
+        },
+        "Soarin":{
+            "id":"WaltDisneyWorldEpcot_20194",
+            "position":"-35 0 -38"
+        },
+        "Living With The Land":{
+            "id":"WaltDisneyWorldEpcot_80010161",
+            "position":"-43.5 0 -50"
+        },
+        "Journey Into Imagination":{
+            "id":"WaltDisneyWorldEpcot_80010152",
+            "position":"-25 0 -38"
+        },
+        "Magic Eye Theater":{
+            "id":"WaltDisneyWorldEpcot_18269694",
+            "position":"-17 0 -32"
+        },
+        "Gran Fiesta Tour":{
+            "id":"WaltDisneyWorldEpcot_207395",
+            "position":"26 0 -26"
+        },
+        "Frozen Ever After":{
+            "id":"WaltDisneyWorldEpcot_18375495",
+            "position":"31 0 -8"
+        },
+        "Reflections of China":{
+            "id":"WaltDisneyWorldEpcot_80010180",
+            "position":"30 0 2"
+        },
+        "The American Adventure":{
+            "id":"WaltDisneyWorldEpcot_80010200",
+            "position":"-2.5 0 30"
+        },
+        "Impressions de France":{
+            "id":"WaltDisneyWorldEpcot_80010145",
+            "position":"-43 0 15"
+        },
+        "O Canada!":{
+            "id":"WaltDisneyWorldEpcot_80010174",
+            "position":"-27 0 -24"
+        }
+    },
+    "HollywoodStudios": {
+        "The Great Movie Ride":{
+            "id":"WaltDisneyWorldHollywoodStudios_80010207",
+            "position":"0 0 0"
+        },
+        "Star Wars: Path of the Jedi":{
+            "id":"WaltDisneyWorldHollywoodStudios_18240966",
+            "position":"21 0 10"
+        },
+        "Star Tours":{
+            "id":"WaltDisneyWorldHollywoodStudios_80010193",
+            "position":"25 0 18"
+        },
+        "Muppet*Vision 3D":{
+            "id":"WaltDisneyWorldHollywoodStudios_80010151",
+            "position":"14 0 26"
+        },
+        "Toy Story Mania!":{
+            "id":"WaltDisneyWorldHollywoodStudios_209857",
+            "position":"-10 0 6"
+        },
+        "One Man's Dream":{
+            "id":"WaltDisneyWorldHollywoodStudios_80010231",
+            "position":"-10 0 -11"
+        },
+        "Voyage of the Little Mermaid":{
+            "id":"WaltDisneyWorldHollywoodStudios_80010229",
+            "position":"-6 0 -14"
+        },
+        "Star Wars Launch Bay Theater":{
+            "id":"WaltDisneyWorldHollywoodStudios_18360041",
+            "position":"-5 0 -21"
+        },
+        "Rock 'n Roller Coaster":{
+            "id":"WaltDisneyWorldHollywoodStudios_80010182",
+            "position":"-5 0 -45"
+        },
+        "Tower of Terror":{
+            "id":"WaltDisneyWorldHollywoodStudios_80010218",
+            "position":"10.5 0 -50.5"
+        }
+    },
+    "AnimalKingdom": {
+        "Avatar Flight of Passage":{
+            "id":"WaltDisneyWorldAnimalKingdom_18665186",
+            "position":"-13 0 39"
+        },
+        "Na'vi River Journey":{
+            "id":"WaltDisneyWorldAnimalKingdom_18665185",
+            "position":"-8 0 41"
+        },
+        "It's Tough to be a Bug":{
+            "id":"WaltDisneyWorldAnimalKingdom_80010150",
+            "position":"5.5 0 10"
+        },
+        "Kilimanjaro Safaris":{
+            "id":"WaltDisneyWorldAnimalKingdom_80010157",
+            "position":"-6 0 -6"
+        },
+        "Kali River Rapids":{
+            "id":"WaltDisneyWorldAnimalKingdom_80010154",
+            "position":"25 0 -7"
+        },
+        "Expedition Everest":{
+            "id":"WaltDisneyWorldAnimalKingdom_26068",
+            "position":"38 0 0"
+        },
+        "Primeval Whirl":{
+            "id":"WaltDisneyWorldAnimalKingdom_80010178",
+            "position":"30 0 24"
+        },
+        "Triceratop Spin":{
+            "id":"WaltDisneyWorldAnimalKingdom_80010228",
+            "position":"23 0 20"
+        },
+        "Dinosaur":{
+            "id":"WaltDisneyWorldAnimalKingdom_80010123",
+            "position":"25 0 35"
+        }
+    }
+}

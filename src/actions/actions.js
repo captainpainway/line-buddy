@@ -7,7 +7,7 @@ export const updateDataSuccess = (data) => {
 
 export function updateData() {
     return (dispatch) => {
-        const socket = io.connect('http://192.168.1.105:3000');
+        const socket = io.connect("http://45.55.221.240");
         if(io) {
             socket.on('times', (data) => {
                 return dispatch(updateDataSuccess(data));
